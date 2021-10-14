@@ -18,13 +18,13 @@ describe Song do
 
     describe '#artist' do 
       it 'returns the artist' do 
-        expect(hit_me.artist).to eq('Brittany Spears')
+        expect(hit_me.artists).to eq('Brittany Spears')
       end
     end
 
     describe '#genre' do 
       it 'returns the genre' do
-        expect(hit_me.genre).to eq('pop') 
+        expect(hit_me.genres).to eq('pop') 
       end
     end
   end

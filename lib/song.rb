@@ -41,4 +41,5 @@ class Song
 end 
 
 fade = Song.new("Fade", "Kanye West", "Hip-Hop")
-
+ifu = Song.new("If U Want It", "Wilkinson", "Electronic")
+wiz = Song.new("The Wizard", "Black Sabbath", "Proto-doom")
